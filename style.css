@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --gray: hsl(0, 0%, 20%);
+  --dark-gray: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+
+  --weight-low: 400;
+  --weight-mid: 600;
+  --weight-high: 700;
+}
+
+p {
+  font-size: 14px;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
