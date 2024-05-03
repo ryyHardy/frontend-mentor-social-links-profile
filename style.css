@@ -12,16 +12,37 @@
   --weight-high: 700;
 }
 
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 p {
   font-size: 14px;
 }
 
 body {
+  background-color: var(--off-black);
+  height: 100vh;
   display: grid;
   place-content: center;
 }
 
+.profile-card {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  width: 300px;
+  height: 450px;
+}
+
+.profile-links {
+  list-style-type: none;
+}
+
 .attribution {
+  color: var(--white);
   font-size: 11px;
   text-align: center;
 }
