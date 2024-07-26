@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-card-with-the-figure-element-and-some-flexbox-NxEjCpV9ld](https://www.frontendmentor.io/solutions/social-links-profile-card-with-the-figure-element-and-some-flexbox-NxEjCpV9ld)
 - Live Site URL: [https://ryyhardy.github.io/frontend-mentor-social-links-profile/](https://ryyhardy.github.io/frontend-mentor-social-links-profile/)
 
 ## My process
