@@ -16,8 +16,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
         - [Continued development](#continued-development)
         - [Useful resources](#useful-resources)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -55,7 +53,7 @@ a:focus {
   color: var(--off-black);
 }
 ```
-I'm believe I used em units a lot more this time. I heard that they are really good for padding and margins, so I decided to find more ways to use them.
+I believe I used em units a lot more this time. I heard that they are really good for padding and margins, so I decided to find more ways to use them.
 
 As for the HTML, it was a lot of the usual challenges I have such as figuring out what tags to use for my text (h1, h2, p, etc) and my continued obsession with the figure element.
 
