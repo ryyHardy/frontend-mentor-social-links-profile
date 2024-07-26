@@ -34,11 +34,76 @@ body {
   background-color: var(--dark-gray);
   color: var(--white);
   width: 300px;
-  height: 450px;
+  height: 470px;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.profile-figure {
+  margin: 1em;
+}
+
+.profile-figure img {
+  border-radius: 100%;
+}
+
+.profile-figure figcaption {
+  margin: 1em;
+}
+
+.profile-figure h1 {
+  font-size: 1.2rem;
+  font-weight: var(--weight-mid);
+}
+
+.profile-figure h2 {
+  font-size: 0.7rem;
+  margin: 0.8em;
+  color: var(--green);
+  font-weight: var(--weight-mid);
+}
+
+.quote {
+  font-size: 0.7rem;
+  margin: 1em;
+  font-weight: var(--weight-low);
+}
+
+.quote::before {
+  content: '"';
+}
+
+.quote::after {
+  content: '"';
 }
 
 .profile-links {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-links a {
+  text-align: center;
+  padding: 1em;
+  margin: 0.4em;
+  width: 90%;
+  height: 3em;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: var(--weight-mid);
+  background-color: var(--gray);
+  border-radius: 0.7em;
+}
+
+.profile-links > a:hover,
+a:focus {
+  background-color: var(--green);
+  color: var(--off-black);
 }
 
 .attribution {
@@ -47,5 +112,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(179, 100%, 50%);
 }
